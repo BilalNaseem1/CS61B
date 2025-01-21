@@ -153,5 +153,3 @@ Object 2 Instance Count: 1
 - **Static Variables:** Shared across all objects and belong to the class.
 - **Instance Variables:** Unique to each object and belong to the instance.
 - **Local Variables:** Limited to the scope of the method/block in which they are declared.
-
-This structure can be directly added to your README file! Let me know if you'd like additional formatting suggestions for Markdown.
