@@ -26,4 +26,5 @@ public class Main {
     static String full_name(String first_name, String last_name) {
         return first_name + " " + last_name;
     }
+
 }
