@@ -9,7 +9,6 @@ public class Main {
         System.out.println(Arrays.toString(numbers));
 
         // Sorting array
-        // Arrays.sort(numbers);
         Arrays.sort(numbers);
 
         for (int i : numbers) {
