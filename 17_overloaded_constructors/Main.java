@@ -16,13 +16,33 @@ public class Main {
         System.out.println(" ****************************");
 
 
-        User user1 = new User("Spongebob", "4kX5i@example.com", 20);
+        
         System.out.println(" ****** USER 1 ATTRIBUTES ******");
+        User user1 = new User("Spongebob");
         System.out.println(user1.username);
         System.out.println(user1.email);
         System.out.println(user1.age);
-        System.out.println(" ****** USER 1 ATTRIBUTES ******");
+        System.out.println(" ****************************");
+        System.out.println(" ****************************");
 
+
+        System.out.println(" ****** USER 2 ATTRIBUTES ******");
+        User user2 = new User("Spongebob", "4kX5i@example.com");
+        System.out.println(user2.username);
+        System.out.println(user2.email);
+        System.out.println(user2.age);
+        System.out.println(" ****************************");
+        System.out.println(" ****************************");
+
+
+
+        System.out.println("****** USER 3 ATTRIBUTES ******");
+        User user3 = new User("Spongebob", "4kX5i@example.com", 20);
+        System.out.println(user3.username);
+        System.out.println(user3.email);
+        System.out.println(user3.age);
+        System.out.println(" ****************************");
+        System.out.println(" ****************************");
 
     }
 }
