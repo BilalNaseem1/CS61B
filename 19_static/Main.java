@@ -24,6 +24,8 @@ public class Main {
         System.out.println(friend3.numOfFriend);
         // Correct way to access a static variable
         System.out.println(Friends.numOfFriend);
+
+        Friends.printNumOfFriend();
  
  
     }
