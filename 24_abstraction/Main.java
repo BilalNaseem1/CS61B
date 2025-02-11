@@ -6,14 +6,19 @@
 // shape class
 // The shape class is a parent class for the circle class and so on...
 
+// abstract classes can contain abstract methods which must be implemented by its children
+//
+
 public class Main {
 
     public static void Main(String[] args) {
 
-        // // This will throw an error
+        // // This will throw an error because Shape is an abstract class
         // Shape shape = new Shape();
 
         Circle circle = new Circle();
+        Triangle triangle = new Triangle();
+        Rectangle rectangle = new Rectangle();
 
     }
 }
